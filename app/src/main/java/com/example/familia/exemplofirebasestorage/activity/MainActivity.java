@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void salvarImagem(){
         //Para realizar uma alteração no banco de dados é necessário estar logado!
-        auth.signInWithEmailAndPassword("jopxoto12@gmail.com","123456").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        auth.signInWithEmailAndPassword("admin@admin.com","123456").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
