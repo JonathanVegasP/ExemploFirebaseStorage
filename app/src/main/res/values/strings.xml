@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exemplo Firebase Storage</string>
+    <string name="selecionar_imagem">Selecionar Imagem</string>
+    <string name="imagem">Imagem</string>
+</resources>
